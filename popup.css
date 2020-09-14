@@ -1,0 +1,10 @@
+body {
+    min-width: 500px; 
+    width: 500px;
+    /* min-height: 300px; */
+}
+
+.main-bgrd {
+    padding: 20px 50px 20px 50px;
+    background-image: url('http://placekitten.com/500/250');
+}
