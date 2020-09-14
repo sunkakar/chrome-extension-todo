@@ -1,5 +1,5 @@
 {
-  "name": "Bookmarks",
+  "name": "Kitty Bookmarks",
   "version": "1.0",
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' https://code.jquery.com https://cdn.jsdelivr.net https://stackpath.bootstrapcdn.com; object-src 'self';",
