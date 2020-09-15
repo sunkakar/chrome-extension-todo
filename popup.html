@@ -61,27 +61,37 @@
                 </div>
                 
             </div>
-            
+
             <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <form id="input-form" class="needs-validation" novalidate>    
                 <h4 class="text-white col-12 text-center">
                     Add a Bookmark
                 </h4>
                 &nbsp;
                 <div class="input-group col-12">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="input-name">Title</span>
-                    </div>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    
                 </div>
+                <div class="col-12">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="input-title-span">Title</span>
+                        </div>
+                        <input type="text" class="form-control" id="input-title" aria-describedby="basic-addon3" required>
+                        <div class="invalid-feedback">
+                        Please add a title.
+                      </div>
+                    </div>
+                  </div>
                 &nbsp;
                 <div class="input-group col-12">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="input-url">URL </span>
+                        <span class="input-group-text" id="input-url-span">URL</span>
                     </div>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    <input type="text" class="form-control" id="input-url" aria-describedby="basic-addon3" required>
                 </div>
                 &nbsp;
-                <button type="button" class="btn btn-info col-12">Add</button>
+                <button type="submit" class="btn btn-info col-12">Add</button>
+            </form>
 
             </div>
         </div>
